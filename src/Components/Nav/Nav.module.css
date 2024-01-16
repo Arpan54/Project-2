@@ -1,0 +1,19 @@
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    height: 72px;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navigation ul li:hover{
+    color: gray;
+}
